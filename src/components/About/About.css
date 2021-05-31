@@ -1,0 +1,135 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 5rem;
+    height: 30rem;
+}
+
+.containTitleAbout {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.titleAbout {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    width: fit-content;
+    color: #dddddd;
+    font-family: "Lato", sans-serif;
+
+}
+
+.containerAbout {
+    width: 100%;
+    color: thistle;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    top:3rem;  
+}
+
+.info {
+    color: #dddddd;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    font-family: "Lato", sans-serif;
+
+}
+
+.aboutInfo {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+}
+
+.containerInfo {
+    display: flex;
+    width: 35%;
+}
+
+/* .textInfo {
+    margin-left: 2rem;
+} */
+
+.iconContainer {
+    width: 175px;
+    height: 175px;
+    line-height: 175px;
+    max-width: 100%;
+    background: #9c1b4f;
+    border-radius: 50%;
+    color: #FFF;
+    font-size: 55px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 40px
+}
+
+
+.iconContainer:hover  {
+     -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg); 
+  }
+
+  @media (max-width: 648px) {
+	 .container{
+        margin-top: 10rem;
+        height: fit-content;
+        width: 100%;
+    } 
+    .containerAbout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconContainer {
+        width: 8rem;
+        height: 8rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .icon {
+        font-size: 2.7rem;
+        margin-bottom: 1rem;
+        
+        /* position: absolute; */
+    }
+    .info {
+        font-size: 4vh;
+        text-align: center;
+    }
+    .aboutInfo {
+        font-size: 3vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
+        text-align: center;
+        /* background-color: tomato; */
+       
+    }
+    .containerInfo {
+        display: flex;
+        width: 90%;
+    }
+    .textInfo {
+        width: 100%;
+        
+    }
+}

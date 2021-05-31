@@ -1,0 +1,71 @@
+.containerNetwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #1b1b1b;
+    height: 7rem;
+    margin-top: -10rem;
+}
+
+ 
+
+.netRed {
+    display: flex;
+    height: 0;
+}
+
+
+.net {
+   /*  display: flex; */
+    margin: 1rem 0.2rem 0 0.2rem;
+    height: 0;
+    justify-content: center;
+    text-align: center;
+    
+}  
+
+a {
+    background-color: #333;
+    padding: 0.5rem;
+    color: #dddddd;
+    font-size: 2rem;
+    height: 2.3rem;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+
+.iconInstagram:hover {
+    background-color: #337ab7;
+    transition: 500ms;
+    transform:scale(1.1);
+}
+
+.iconGithub:hover {
+    background-color: #337ab7;
+    transition: 500ms;
+    transform:scale(1.1);
+}
+
+.iconLinkedin:hover {
+     background-color: #175183;
+     transition: 500ms;
+     transform:scale(1.1);
+}
+
+
+.copy {
+    position: relative;
+    top:4.7rem;
+    color: #dddddd;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 648px) {
+    .containerNetwork {
+        margin-top:5rem;
+    }
+}

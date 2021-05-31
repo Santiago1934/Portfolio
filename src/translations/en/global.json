@@ -1,0 +1,17 @@
+{
+    "header" : {
+      "header-greeting":"Hi there! I'm Santiago Rosales",
+      "header-about": "Full Stack Developer, passionate about develop and design aplications    "
+    },
+    "about" : {
+      "design" :"I strive to design interfaces and experiences that are predictable for the user and that can be enjoyed from all digital media.",
+      "development":"I am passionate about application design and development in general. As I gain experience as a developer, I hope to write clean, readable code that others can use and leverage to create attractive software."
+    },
+    "work" : {
+      "proyect1" : "WeatherApp is one of the first applications I worked on, WeatherApp gives you information about the weather and additional information of any place that interests you.",
+
+      "proyect2" : "This site was made during the final stage of my course in 'Henry Bootcamp', XGames is where you can learn more about your favorite games and add new ones.It makes use of an external api to collect game data and uses a Database to store the games added by the user.",
+
+      "proyect3" : "CompuStore is an e-commerce of computer supplies carried out together with six other colleagues. From the selection and purchase of components, through a payment gateway, to being able to assemble your pc with products that we organize so that there are no incompatibilities, CompuStore is the perfect place to choose the computer that best suits your needs."   
+    }
+}

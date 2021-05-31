@@ -1,0 +1,43 @@
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: #dddddd;
+    font-family: "Lato", sans-serif;
+    margin-top: 3rem;
+    height: 33rem;
+    margin-bottom: 5rem;
+}
+
+.buttonContact {
+    position: relative;
+    width:10%;
+    top:5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border-color: transparent;
+    background-color: #8a0a3d;
+    text-align: center;
+    text-decoration: none;
+    color: #dddddd;
+    border-radius: 0.2rem;
+    font-family: "Lato", sans-serif;
+    height: 2.5rem;
+}
+.buttonContact:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+@media (max-width: 648px) { 
+    .containerForm {
+        height: fit-content;
+    }
+    .buttonContact {
+        top:1rem;
+        width: 30%;
+    }
+}
