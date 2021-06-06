@@ -239,9 +239,6 @@ a{
         position: relative;
         /* left: 0rem; */
     }
-    .lang {
-        margin-left: 3rem;
-    }
     .iconLan {
         font-size: 3vh;
     }

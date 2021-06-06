@@ -63,6 +63,7 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
 display:flex;
 list-style:none;
+margin-right: 2rem;
 
 
 @media screen and (max-width: 768px){
@@ -87,6 +88,7 @@ font-size: 1rem;
 list-style: none;
 margin:1rem;
 margin-top:1.6rem;
+
 background-color:transparent;
 &.active {
     border-bottom: 3px solid #9c1b4f;
