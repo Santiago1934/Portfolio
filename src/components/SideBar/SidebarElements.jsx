@@ -6,7 +6,7 @@ import { Link as LinkR } from "react-router-dom"
 export const SidebarContainer = styled.aside`
  position:fixed;
  z-index:999;
- width: 100%;
+ width: 80%;
 height: 100%;
 background: #0d0d0d;
 display:grid;
@@ -25,7 +25,7 @@ color:#fff
 export const Icon = styled.div`
 position:absolute;
 top:1.2rem;
-right: 1.5rem;
+right: 1rem;
 background:transparent;
 font-size: 2rem;
 cursor:pointer;
