@@ -111,6 +111,7 @@
     color: white;
     font-size: 26px;
     padding: 6px 12px;
+    margin-top: 30%;
   }
 
   .nameProyect {
@@ -120,6 +121,7 @@
     padding: 6px 12px;
     background-color: #9c1b4f;
     border-radius: 0.2rem;
+    
   }
 
   .buttonLan {
@@ -237,7 +239,6 @@
   }
 
   .marcoExperience3 {
-    background-color: blue;
     width: 80%;
     display: flex;
     position: relative;
@@ -256,4 +257,7 @@
   .close {
     font-size: 4vh;
   }
+  .marcoExperience3 .middle {
+    margin-top: 0;
+}
 }

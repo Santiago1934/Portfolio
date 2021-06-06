@@ -1,9 +1,11 @@
 import "./Experience.css";
-import img from "../../images/proyectos/prueba1.png";
 import pi1 from "../../imgProyects/pi1.png"
 import pi from "../../imgProyects/pi.png"
-import ecommerce from "../../imgProyects/e-commerce.png"
-import weather from "../../imgProyects/weather.png"
+import ecommerce from "../../imgProyects/ecommerce.png"
+import ecommerce1 from "../../imgProyects/ecommerce1.png"
+
+import weather1 from "../../imgProyects/wheather1.png"
+import weather2 from "../../imgProyects/weather2.png"
 import { FaSearchPlus } from "react-icons/fa";
 import { Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Input, Label } from "reactstrap"
 import "bootstrap/dist/css/bootstrap.css"
@@ -30,7 +32,7 @@ const handleDes = (e) => {
 
   return (
     <div className="containerExperience" id="work">
-      <h1 className="titleExperience">WHAT I'VE DONE</h1>
+      <h1 className="titleExperience">{t("work.title")}</h1>
 
       <div className="containerProjects" >
           
@@ -39,10 +41,9 @@ const handleDes = (e) => {
          onClick={() => {setOpen(!open); 
          handleDes({title:"WeatherApp", 
          description:t("work.proyect1"),
-         image:weather})
-         
+         image:weather2})
          }}>
-          <img className="imageExp" src={weather} width="100%" height="100%"  />
+          <img className="imageExp" src={weather1} width="100%" height="100%"  />
           <div className="middle" >
             <div className="text">
               <FaSearchPlus />
@@ -72,7 +73,7 @@ const handleDes = (e) => {
          onClick={() => {setOpen(!open); 
          handleDes({title:"CompuStore",
            description:t("work.proyect3"),
-           image:ecommerce})}}>
+           image:ecommerce1})}}>
           <img className="imageExp" src={ecommerce} width="100%" height="100%" />
           <div className="middle">
             <div className="text">

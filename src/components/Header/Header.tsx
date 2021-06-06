@@ -15,15 +15,14 @@ const Header = () => {
          
     
             <div className="containerImg">
-                    <img src= {perfil}
-                     width="100%" height="auto" >
-                    </img>
+                <div className="img"></div>
             </div>
 
              <div className="textContent">
 
                 <h4 className="dedicHeader">Full-Stack Web Developer</h4>
 
+                
                 <h1 className="nameHeader">{t("header.header-greeting")}</h1>
 
                 <p className="meHeader">{t("header.header-about")}</p>
@@ -36,7 +35,9 @@ const Header = () => {
             </div> 
    
             <div className="buttonsHeader">
-               <button className="buttonCv">View Cv</button>
+               <a  className="buttonCv" href="https://drive.google.com/file/d/1m3XIKXGQyrA2Qeu5cODW_9vmXX79ICJG/view?usp=sharing" target="blank">
+                   <p style={{color:"white"}}>{t("header.header-button")}</p>
+                </a>
             </div>
         </div>
      );

@@ -15,6 +15,7 @@ import reactImg from "../../nuevasimg/react.png"
 import typescriptImg from "../../nuevasimg/typescript.png"
 import graphqlImg from "../../nuevasimg/graphQl.png"
 import bootstrapImg from "../../nuevasimg/bootstrap.png"
+import { useTranslation } from "react-i18next"
 
 
 
@@ -23,9 +24,12 @@ import bootstrapImg from "../../nuevasimg/bootstrap.png"
 
  
 const Technologies = () => {
+
+    const [t, i18n] = useTranslation("global")
+
     return ( 
         <div className="containerTech" id="experience">
-            <h1 className="titleTechnologies">SOME TECHNOLOGIES I'VE WORKED WITH:</h1>
+            <h1 className="titleTechnologies">{t("work.title-tech")}</h1>
             
             <div className="containerImgGroup">
 

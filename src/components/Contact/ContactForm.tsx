@@ -1,7 +1,10 @@
 import "./ContactForm.css"
 import { FaPaperPlane } from "react-icons/fa"
+import { useTranslation } from "react-i18next";
  
 const Contact = () => {
+
+    const [t, i18n] = useTranslation("global")
 
     
     return ( 
@@ -10,14 +13,13 @@ const Contact = () => {
             <div className="iconContainer" >
                 <FaPaperPlane style={{fontSize:"4rem", color:"#dddddd"}}/>
             </div>
-            <h1 className="titleAbout" id="contact">GET IN TOUCH</h1>
+            <h1 className="titleAbout" id="contact">{t("contact.title")}</h1>
 
-            <p className="contactInfo"> 
-                Feel free to shoot me an email!</p>
+            <p className="contactInfo">{t("contact.about")}</p>
 
            
 
-            <a className="buttonContact" href="mailto:santiagorosales1@outlook.com"> Say Hello</a> 
+            <a className="buttonCv" href="mailto:santiagorosales1@outlook.com"> <p style={{color:"white"}} > {t("contact.button")} </p></a> 
 
            
 

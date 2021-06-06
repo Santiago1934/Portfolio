@@ -10,7 +10,7 @@ const About = () => {
         <div className="container">
 
         <div className="containTitleAbout">
-            <h1 className="titleAbout">WHAT I DO</h1>
+            <h1 className="titleAbout">{t("about.title")}</h1>
         </div>
       
             <div className="containerAbout">
@@ -25,7 +25,7 @@ const About = () => {
                 </div>
 
                 
-                    <h4 className="info">Design</h4>
+                    <h4 className="info">{t("about.title-design")}</h4>
 
                     <p className="aboutInfo">
                     {t("about.design")}
@@ -41,7 +41,7 @@ const About = () => {
                 <div className="iconContainer">
                     <i><FaCode  className="icon" /></i>
                 </div>
-                    <h4 className="info">Development</h4>
+                    <h4 className="info">{t("about.title-development")}</h4>
 
                     <p className="aboutInfo">
                     {t("about.development")}

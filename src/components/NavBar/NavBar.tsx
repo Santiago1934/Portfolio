@@ -36,12 +36,13 @@ const NavBar = (props: any) => {
     <>
       <Nav scrollNav={scrollNav}>
 
-        
+        <div className="lang">
           <MdLanguage className="iconLan" />
 
            <button className="buttonLan" onClick={() => i18n.changeLanguage("es")}>ES</button>
            <button className="buttonLan" onClick={() => i18n.changeLanguage("en")}>EN</button>
-           
+        </div>  
+
         <NavbarContainer>
           {/*  <NavLogo to="/"> dolla </NavLogo>  */}
           <MobileIcon onClick={props.toggle}>

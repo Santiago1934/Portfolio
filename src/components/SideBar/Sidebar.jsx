@@ -25,9 +25,9 @@ const Sidebar = ({ toggle, isOpen }) => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={2000}
+            duration={500}
           >
-            About
+            <p style={{color:"white"}}>About</p>
           </Link>
           <Link  className="linkSideBar"
             onClick={toggle} 
@@ -36,9 +36,9 @@ const Sidebar = ({ toggle, isOpen }) => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={2000}
+            duration={500}
           >
-            Experience
+            <p style={{color:"white"}}>Experience</p>
           </Link>
 
           <Link className="linkSideBar"
@@ -48,9 +48,9 @@ const Sidebar = ({ toggle, isOpen }) => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={2000}
+            duration={500}
           >
-            Work
+           <p style={{color:"white"}}>Work</p> 
           </Link>
 
           <Link className="linkSideBar" 
@@ -60,9 +60,9 @@ const Sidebar = ({ toggle, isOpen }) => {
             spy={true}
             smooth={true}
             offset={-70}
-            duration={2000}
+            duration={500}
           >
-            Contact
+            <p style={{color:"white"}}>Contact</p>
           </Link>
 
         </SideBarMenu>

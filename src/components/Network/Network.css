@@ -41,16 +41,19 @@ a {
     background-color: #337ab7;
     transition: 500ms;
     transform:scale(1.1);
+    color: white;
 }
 
 .iconGithub:hover {
     background-color: #337ab7;
     transition: 500ms;
     transform:scale(1.1);
+    color: white;
 }
 
 .iconLinkedin:hover {
      background-color: #175183;
+     color: white;
      transition: 500ms;
      transform:scale(1.1);
 }
