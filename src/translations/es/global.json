@@ -5,22 +5,30 @@
       "header-button":"Mi curriculum"
     },
     "about" : {
-      "design":"Me gusta esforzarme por crear interfaces y experiencias que puedan ser disfrutadas por cualquier persona desde cualquier dispositivo",
-      "development":"Me apasiona el desarrollo de aplicaciones y el diseño en general. A medida que adquiera experiencia, espero escribir codigo limpio, y reutilizable para que otros desarrolladores puedan hacer uso del mismo.",
-      "title":"LO QUE HAGO",
-      "title-design":"Diseño",
-      "title-development": "Desarrollo"
+      "p1":"Full-Stack Developer, estudiante de Psicología,  apasionado por el desarrollo y el diseño de aplicaciones. Me esfuerzo por desarrollar interfaces que puedan ser accedidas desde cualquier dispositivo digital y asi poder brindarle al usuario la mejor experiencia posible. Actualmente estoy en busca de una oportunidad laboral en donde pueda sumar valor a partir de mis conocimientos y me permita seguir creciendo como desarrollador.  ",
+      "title":"UN POCO SOBRE MI"
     },
      "work": {
       "title":"LO QUE HE HECHO",
-       "proyect1" : "WeatherApp es una de las primeras aplicaciones en las que trabaje, WeatherApp te brinda informacion acerca del clima y cierta data adicional acerca de los sitios que mas te interesan.",
-       "proyect2":  "Este sitio fue realizado durante la etapa final de mi cursado en 'Henry Bootcamp', XGames es en donde podes conocer mas acerca de tus juegos favoritos, y porque no? agregar nuevos tambien. Hace uso de una api externa para la recoleccion de datos de los juegos y utiliza una Base de Datos para almacenar los juegos agregados por el usuario.",
-       "proyect3" : "CompuStore es un e-commerce de insumos informaticos realizado junto con otros seis compañeros. Desde la seleccion y compra de componentes, a traves de una pasarela de pago, hasta poder armar tu pc con productos que organizamos para que no existan incompatibilidades, CompuStore es el perfecto lugar para elegir la computadora que mas se ajuste a tus necesidades. ",
+       "proyect1" : "WeatherApp es una de las primeras aplicaciones en las que trabaje con React, WeatherApp hace uso de una API externa (openweathermap) para brindarte informacion acerca del clima y algunos datos adicionales sobre los lugares que mas te interesan.",
+       "proyect2":  "Utilizando una API externa (apirawg), XGames te permite conocer mas acerca de tus juegos favoritos, si deseas podes agregar nuevos juegos también. Las tecnologias usadas fueron: React y Redux para el Frontend y Node.js (Express) con PostgreSQL (conectado via Sequelize) para el Backend.",
+       "proyect3" : "CompuStore es un e-commerce de insumos informaticos realizado junto con otros seis compañeros. Desde la seleccion y compra de componentes a traves de una pasarela de pago, hasta poder armar tu pc con productos que organizamos para que no existan incompatibilidades, CompuStore es el perfecto lugar para que cualquier persona pueda elegir la computadora que mas se ajuste a sus necesidades.",
        "title-tech" :"TECNOLOGIAS CON LAS QUE HE TRABAJADO:"
      },
      "contact": {
        "title":"PONTE EN CONTACTO",
        "about":"Sentite libre de mandarme un correo en cualquier momento!",
        "button":"Salúdame"
+     },
+     "links": {
+       "view-code":"Ver el Código",
+       "visit-site": "Visitar Sitio",
+       "contact":"Contacto",
+       "work":"Proyectos",
+       "technologies": "Tecnologías",
+       "about":"Sobre Mi",
+       "close":"cerrar"
      }
 }
+
+

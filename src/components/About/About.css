@@ -3,7 +3,8 @@
     display: flex;
     flex-direction: column; 
     margin-top: 5rem;
-    height: 30rem;
+    height: 17rem;
+   
 }
 
 .containTitleAbout {
@@ -27,7 +28,7 @@
     color: thistle;
     position: relative;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     text-align: center;
     top:3rem;  
 }
@@ -42,9 +43,19 @@
 }
 
 .aboutInfo {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     font-family: "Lato", sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+p::selection{
+    background-color: #9c1b4f;
+}
+
+h1::selection{
+    background-color: #9c1b4f;
 }
 
 .containerInfo {

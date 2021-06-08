@@ -58,7 +58,7 @@ const NavBar = (props: any) => {
                 offset={-70}
                 duration={500}
               >
-                About
+                {t("links.about")}
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -70,7 +70,7 @@ const NavBar = (props: any) => {
                 offset={-70}
                 duration={500}
               >
-                Work
+                 {t("links.work")}
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -82,7 +82,7 @@ const NavBar = (props: any) => {
                 offset={-70}
                 duration={500}
               >
-                Experience
+                 {t("links.technologies")}
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -94,7 +94,7 @@ const NavBar = (props: any) => {
                 offset={-70}
                 duration={500}
               >
-                Contact
+                 {t("links.contact")}
               </NavLinks>
             </NavItem>
           </NavMenu>

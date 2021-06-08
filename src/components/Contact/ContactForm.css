@@ -10,6 +10,11 @@
     margin-bottom: 5rem;
 }
 
+.contactInfo {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
 /* .buttonContact {
     position: relative;

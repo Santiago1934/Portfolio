@@ -15,7 +15,11 @@ const About = () => {
       
             <div className="containerAbout">
 
-                <div className="containerInfo">
+            <p className="aboutInfo">
+                    {t("about.p1")}
+            </p>
+
+               {/*  <div className="containerInfo">
 
 
                 <div className="textInfo">
@@ -48,7 +52,7 @@ const About = () => {
                     </p>
 
                 </div>
-        </div>
+        </div> */}
 
         
 

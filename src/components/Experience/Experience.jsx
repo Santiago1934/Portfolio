@@ -26,7 +26,7 @@ const [t, i18n] = useTranslation("global")
 
 const handleDes = (e) => {
   
-   setInfo({title:e.title, description:e.description, images:e.image}) 
+   setInfo({title: e.title, description: e.description, images: e.image, site: e.site, code: e.code}) 
   
 }
 
@@ -41,7 +41,9 @@ const handleDes = (e) => {
          onClick={() => {setOpen(!open); 
          handleDes({title:"WeatherApp", 
          description:t("work.proyect1"),
-         image:weather2})
+         image:weather2,
+         site: "https://weather-app-emrxzuepj-santiago1934.vercel.app",
+         code:"https://github.com/Santiago1934/weatherApp"})
          }}>
           <img className="imageExp" src={weather1} width="100%" height="100%"  />
           <div className="middle" >
@@ -58,7 +60,9 @@ const handleDes = (e) => {
          onClick={() => {setOpen(!open);
           handleDes({title:"XGames",
            description:t("work.proyect2"),
-           image:pi})}}>
+           image:pi,
+           site: "https://proyecto-videogames-aq9mfwnst-santiago1934.vercel.app/",
+           code:"https://github.com/Santiago1934/proyectoVideogames"})}}>
           <img className="imageExp" src={pi1} width="100%" height="100%" />
           <div className="middle">
             <div className="text">
@@ -73,7 +77,9 @@ const handleDes = (e) => {
          onClick={() => {setOpen(!open); 
          handleDes({title:"CompuStore",
            description:t("work.proyect3"),
-           image:ecommerce1})}}>
+           image:ecommerce1,
+           site: "https://compu-store-e-commerce.vercel.app/Home",
+           code:"https://github.com/Santiago1934/compuStore-e-commerce"})}}>
           <img className="imageExp" src={ecommerce} width="100%" height="100%" />
           <div className="middle">
             <div className="text">
@@ -103,12 +109,14 @@ const handleDes = (e) => {
       <Label className="label"form="usuario">{info.description}</Label>
 
       <div className="buttonsDesc">
-           <button className="buttonPro">View Source</button>
+
+          <a  className="buttonPro" href={info.code} target="_blank"> {t("links.view-code")}</a>
            
-           <button className="buttonPro">Visit Site</button>
+          <a className="buttonPro" href={info.site}  target="_blank"> {t("links.visit-site")}</a>
+
       </div>
     </FormGroup>
-    <button className="closeTwo" onClick={() => setOpen(!open)}>close</button>
+    <button className="closeTwo" onClick={() => setOpen(!open)}>{t("links.close")}</button>
         </ModalBody>
         <Modal></Modal>
       </Modal>
