@@ -282,6 +282,7 @@
     margin-top: 0;
 }
 .buttonPro {
-  font-size: 100%;
+  font-size: 2vh;
+  padding: 0.1rem;
 }
 }
