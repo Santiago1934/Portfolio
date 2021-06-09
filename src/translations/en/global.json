@@ -5,14 +5,14 @@
       "header-button":"View Resume"
     },
     "about" : {
-      "p1":"Full-Stack Developer, Psychology student, passionate about application development and design. I strive to develop interfaces that can be accessed from any digital device and enjoyed by the user. I am currently looking for a job opportunity where I can add value from my knowledge and allow me to continue growing as a developer.",
+      "p1":"Full-Stack Developer, Psychology student, passionate about the development and design of applications. I strive to develop interfaces that can be enjoyed from any device and to give the user the best possible experience. I am currently looking for a job opportunity where I can add value from my knowledge and allow me to continue growing as a developer.",
       "title":"A LITTLE BIT ABOUT ME"
     },
     "work" : {
       "title":"WHAT I'VE DONE",
-      "proyect1" : "WeatherApp is one of the first applications to work with React, WeatherApp makes use of an external API (openweathermap) to provide you with information about the weather and some additional information about the places that interest you the most.",
-      "proyect2" : "Using an external API (apirawg), XGames allows you to know more about your favorite games, if you want you can add new games as well. The technologies used were: React and Redux for the Frontend and Node.js (Express) with PostgreSQL (connected via Sequelize) for the Backend.",
-        "proyect3" : "CompuStore is an e-commerce of computer supplies carried out together with six other colleagues. From the selection and purchase of components through a payment gateway, to being able to assemble your pc with products that we organize so that there are no incompatibilities, CompuStore is the perfect place for anyone to choose the computer that best suits their needs."   ,
+      "proyect1" : "WeatherApp is one of the first applications in which I worked with React, it makes use of an external API (openweathermap) to provide you with information about the climate and some additional data about the places you are most interested in.",
+      "proyect2" : "Using an external API (apirawg), XGames lets you know more about your favorite games and if you want, you can add new games as well. The technologies used were: React and Redux for the Frontend, CSS in the styles and Node.js (Express) with PostgreSQL (connected via Sequelize) for the Backend.",
+        "proyect3" : "CompuStore is an e-commerce of computer inputs made together with six other colleagues making use of the SCRUM methodology. From the selection and purchase of components through a payment gateway, to be able to assemble your pc with products that we organize through an algorithm so that there are no incompatibilities, CompuStore is the perfect place for anyone to choose the computer that best suits their needs."   ,
       "title-tech" :"SOME TECHNOLOGIES I'VE WORKED WITH:"
     } ,
     "contact": {

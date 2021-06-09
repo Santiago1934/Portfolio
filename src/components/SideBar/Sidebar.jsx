@@ -9,8 +9,12 @@ import {
   SidebarRoute,
 } from "./SidebarElements";
 import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 const Sidebar = ({ toggle, isOpen }) => {
+
+  const [t, i18n] = useTranslation("global")
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -27,7 +31,7 @@ const Sidebar = ({ toggle, isOpen }) => {
             offset={-70}
             duration={500}
           >
-            <p style={{color:"white"}}>About</p>
+            <p style={{color:"white"}}> {t("links.about")} </p>
           </Link>
           <Link  className="linkSideBar"
             onClick={toggle} 
@@ -38,7 +42,7 @@ const Sidebar = ({ toggle, isOpen }) => {
             offset={-70}
             duration={500}
           >
-            <p style={{color:"white"}}>Experience</p>
+            {t("links.technologies")}
           </Link>
 
           <Link className="linkSideBar"
@@ -50,7 +54,7 @@ const Sidebar = ({ toggle, isOpen }) => {
             offset={-70}
             duration={500}
           >
-           <p style={{color:"white"}}>Work</p> 
+           <p style={{color:"white"}}>   {t("links.work")}</p> 
           </Link>
 
           <Link className="linkSideBar" 
@@ -62,7 +66,7 @@ const Sidebar = ({ toggle, isOpen }) => {
             offset={-70}
             duration={500}
           >
-            <p style={{color:"white"}}>Contact</p>
+            <p style={{color:"white"}}> {t("links.contact")}</p>
           </Link>
 
         </SideBarMenu>
