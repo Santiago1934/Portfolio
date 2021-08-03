@@ -13,7 +13,8 @@
       "proyect1" : "WeatherApp is one of the first applications in which I worked with React, it makes use of an external API (openweathermap) to provide you with information about the climate and some additional data about the places you are most interested in.",
       "proyect2" : "Using an external API (apirawg), XGames lets you know more about your favorite games and if you want, you can add new games as well. The technologies used were: React and Redux for the Frontend, CSS in the styles and Node.js (Express) with PostgreSQL (connected via Sequelize) for the Backend.",
         "proyect3" : "CompuStore is an e-commerce of computer inputs made together with six other colleagues making use of the SCRUM methodology. From the selection and purchase of components through a payment gateway, to be able to assemble your pc with products that we organize through an algorithm so that there are no incompatibilities, CompuStore is the perfect place for anyone to choose the computer that best suits their needs."   ,
-      "title-tech" :"SOME TECHNOLOGIES I'VE WORKED WITH:"
+      "title-tech" :"SOME TECHNOLOGIES I'VE WORKED WITH:",
+      "proyectNext" :"Application made with Next Js and Sass for styles, this consumes data from an api and in addition to giving you information about the universe of superheroes it allows you to add comics / characters / series to your favorites."
     } ,
     "contact": {
       "title":"GET IN TOUCH",

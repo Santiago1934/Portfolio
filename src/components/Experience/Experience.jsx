@@ -3,7 +3,8 @@ import pi1 from "../../imgProyects/pi1.png"
 import pi from "../../imgProyects/pi.png"
 import ecommerce from "../../imgProyects/ecommerce.png"
 import ecommerce1 from "../../imgProyects/ecommerce1.png"
-
+import next1 from "../../imgProyects/nextApp1.png"
+import next2 from "../../imgProyects/nextApp2.png"
 import weather1 from "../../imgProyects/wheather1.png"
 import weather2 from "../../imgProyects/weather2.png"
 import { FaSearchPlus } from "react-icons/fa";
@@ -72,8 +73,25 @@ const handleDes = (e) => {
           </div>
         </div>
 
+
+        <div className="marcoExperience"
+         onClick={() => {setOpen(!open);
+          handleDes({title:"SuperHype",
+           description:t("work.proyectNext"),
+           image:next2,
+           site: "https://next-app-jdwooki8q-santiago1934.vercel.app/",
+           code:"https://github.com/Santiago1934/SHNextApp"})}}>
+          <img className="imageExp" src={next1} width="100%" height="100%" />
+          <div className="middle">
+            <div className="text">
+              <FaSearchPlus />
+            </div>
+            <div className="nameProyect">SuperHype</div>
+          </div>
+        </div>
+
     
-        <div className='marcoExperience3' 
+        <div className='marcoExperience' 
          onClick={() => {setOpen(!open); 
          handleDes({title:"CompuStore",
            description:t("work.proyect3"),
